@@ -1,2 +1,2 @@
-# datetime-streaks
-A package to find streaks from dates and times.
+# datetime-streak
+A package to find streak from dates and times.
