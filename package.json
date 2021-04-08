@@ -1,0 +1,36 @@
+{
+  "name": "datetime-streak",
+  "version": "0.0.1",
+  "description": "A package to find streaks from dates and times.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winkitee/datetime-streak.git"
+  },
+  "keywords": [
+    "streak",
+    "date",
+    "datetime",
+    "days",
+    "daily streak",
+    "weekly streak",
+    "longest streak"
+  ],
+  "author": "Seungyeon Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winkitee/datetime-streak/issues"
+  },
+  "homepage": "https://github.com/winkitee/datetime-streak#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "typescript": "^4.2.3"
+  }
+}
